@@ -1,0 +1,9 @@
+[user]
+	name = Ade Oshineye
+	email = adewale@gmail.com
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
