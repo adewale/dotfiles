@@ -1,0 +1,9 @@
+[extensions]
+hgext.extdiff =
+
+[extdiff]
+cmd.ksdiff = /usr/local/bin/ksdiff-wrapper
+opts.ksdiff = hg
+
+[ui]
+username=ade@google.com
