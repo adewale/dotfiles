@@ -1,6 +1,8 @@
 export PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/
 
-alias status='hg status -q'
+# Aliases for common commands with flags
+alias gs='git status -u'
+alias hs='hg status -q'
 
 # Let me run up to 256 processes
 ulimit -u 256
@@ -8,6 +10,8 @@ ulimit -u 256
 
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... and ignore same sucessive entries.
+# This has the downside that it's no longer possible to track the frequency of commands
+# as described here: http://matt.might.net/articles/console-hacks-exploiting-frequency/
 export HISTCONTROL=ignoreboth
 
 # set the time format for the history file.
