@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 # Obtained from: http://matt.might.net/articles/console-hacks-exploiting-frequency/ and written by Matt Might
+# This saves me having to remember the incantation: sort | uniq -c | sort -g
 
 my %counts = () ;
  
