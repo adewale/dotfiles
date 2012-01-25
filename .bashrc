@@ -4,6 +4,10 @@ export PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.5/lib/python2.
 alias gs='git status -u'
 alias hs='hg status -q'
 
+# Mac specific aliases
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
+
+
 # Let me run up to 256 processes
 ulimit -u 256
 
